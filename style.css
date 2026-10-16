@@ -435,6 +435,7 @@ html, body {
         max-width: 600px;
         flex: 1 1 auto;
         margin: 0 auto;
+        padding-left: 300px;
     }
     .contact-section {
         max-width: 100%;
