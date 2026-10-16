@@ -154,6 +154,7 @@ html, body {
     line-height: 1.8;
     color: #ddd;
     padding-left: 70px;
+    margin-bottom: 25px;
 }
 
 .text-section h3 {
@@ -343,8 +344,9 @@ html, body {
 }
 
 .video_service {
-    flex: 0 0 500px;
-    width: 500px;
+    flex: 1;
+    max-width: 500px;
+    width: 100%;
     height: auto;
     border-radius: 12px;
     display: block;
@@ -356,11 +358,17 @@ html, body {
     color: rgb(45, 136, 211);
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.apropos h3:first-of-type {
+    margin-top: 0;
 }
 
 .apropos h2 {
     padding-left: 120px;
+    margin-bottom: 25px;
 }
 
 .btn-contact {
