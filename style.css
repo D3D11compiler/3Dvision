@@ -148,6 +148,18 @@ html, body {
     margin-bottom: 40px;
 }
 
+.text-section h2 {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #ddd;
+    padding-left: 70px;
+}
+
+.text-section h3 {
+    padding-left: 60px;
+}
+
 .buttons {
     display: flex;
     gap: 20px;
@@ -173,7 +185,7 @@ html, body {
 
 .btn-secondary {
     background: transparent;
-    border: 2px solid #ff7200;
+    border: none;
 }
 
 .btn-secondary a {
@@ -186,7 +198,7 @@ html, body {
 }
 
 .btn-secondary:hover {
-    background: #ff7200;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .btn-secondary:hover a {
@@ -340,6 +352,21 @@ html, body {
     margin: 0 auto;
 }
 
+.apropos h3 {
+    color: rgb(45, 136, 211);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.apropos h2 {
+    padding-left: 120px;
+}
+
+.btn-contact {
+    padding-left: 385px;
+}
+
 @media (max-width: 1200px) {
     .navbar {
         padding: 20px 40px;
@@ -398,10 +425,21 @@ html, body {
         width: 100%;
         max-width: 600px;
         flex: 1 1 auto;
+        margin: 0 auto;
     }
     .contact-section {
         max-width: 100%;
         padding: 30px;
+    }
+    .apropos h2 {
+        padding-left: 0;
+    }
+    .text-section h2,
+    .text-section h3 {
+        padding-left: 0;
+    }
+    .btn-contact {
+        padding-left: 0;
     }
 }
 
@@ -521,6 +559,7 @@ html, body {
     .video_service {
         width: 100%;
         max-width: 100%;
+        margin: 0 auto;
     }
 
     .contact-section {
@@ -544,5 +583,26 @@ html, body {
         height: 55px;
         align-self: center;
         font-size: 15px;
+    }
+
+    .apropos h2 {
+        padding-left: 0;
+    }
+
+    .apropos h3 {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .text-section h2,
+    .text-section h3 {
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
     }
 }
